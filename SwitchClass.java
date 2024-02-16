@@ -3,10 +3,10 @@
  */
 public class SwitchClass {
     public static void main(String[] args) {
-        String race = "Hispanic";
+        String race = "Black";
         String continent = "";
         switch (race) {
-            case "black":
+            case "Black":
                 continent = "Africa";
                 break;
             case "Cacausian":
