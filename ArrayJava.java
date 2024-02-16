@@ -15,8 +15,16 @@ public class ArrayJava {
         int[][] evenNums = {{2,4,6,8,10}, {12,14,16,18,20,}};
 
         //accessing multidimensional array
-
         System.out.println(evenNums[0][4]);// outputs 10
         System.out.println(evenNums[1][1]);// outputs 14
+
+        //looping through multidimensional array
+        for (int i = 0; i < evenNums.length; i++) {
+            System.out.println("Set of Even Numbers");
+            for (int j = 0; j < evenNums[i].length; j++) {
+                System.out.println(evenNums[i][j]);
+            }
+            System.out.println("================");
+        }
     }
 }
